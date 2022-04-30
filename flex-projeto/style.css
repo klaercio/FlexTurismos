@@ -65,7 +65,7 @@ header {
     margin-bottom: 10px;
 }
 
-.texto-apresentacao a {
+.btn{
     background-color: #122A57;
     color: #fff;
     text-align: center;
@@ -151,4 +151,74 @@ header {
     font-size: 1.3rem
 }
 
+#planos {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.list-planos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.item-plano {
+    flex: 1;
+    border: 5px solid #122A57;
+    border-radius: 2px;
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 240px;
+    /* text-align: center; */
+}
+
+.item-plano .btn {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.item-plano h3 {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item-plano h3::after {
+    content: "";
+    background-color: #122A57;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item-plano ul {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    list-style: initial;
+}
+
+.item-plano ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-plano ul li::before {
+    content: "";
+    background-color: #122A57;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+#planos h2 {
+    font-size: 32px;
+}
 
