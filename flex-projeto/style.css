@@ -50,7 +50,7 @@ header {
     display: flex;
     width: 70%;
     margin: 0 auto;
-    height: 100vh;
+    height: calc(100vh - 100px);
     align-items: center;
     justify-content: space-between;
 }
@@ -99,9 +99,56 @@ header {
     position: relative;
 }
 
-div img {
+.apresentacao div img {
     display: block;
     width: 100%;
+    min-width: 420px;
+}
+
+.container-externo {
+    background-color: #122A57;
+    width: 100%;
+}
+
+.servicos {
+    display: flex; 
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.servicos div {
+    width: 30%;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.container-externo div h2 {
+    color: #fff;
+    padding: 2rem 80% 2rem 15% ;
+    font-size: 2rem;
+}
+
+.texto {
+    height: 100px;
+}
+
+.servicos div a {
+    background-color: #fff;
+    color: #122A57;
+    padding: 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.servicos div p {
+    padding: 2rem;
+    color :#fff;
+    font-size: 1.3rem
 }
 
 
