@@ -231,4 +231,19 @@ footer {
     /* vertical-align: middle; */
 }
 
+.redes-sociais ul {
+    display: flex;
+    justify-content: center;
+}
 
+.redes-sociais ul li {
+    width: 30px;
+    height: 30px;
+    margin: 5px 5px;
+    color: #FFF;
+}
+
+.redes-sociais ul li:nth-child(1) {
+    color: #fff;
+
+}
