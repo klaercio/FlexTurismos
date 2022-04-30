@@ -171,6 +171,7 @@ header {
     margin-right: 20px;
     padding: 10px;
     max-width: 240px;
+    margin-bottom: 5rem;
     /* text-align: center; */
 }
 
@@ -221,4 +222,13 @@ header {
 #planos h2 {
     font-size: 32px;
 }
+
+footer {
+    text-align: center;
+    background-color: #122A57;
+    color: #fff;
+    padding: 2rem;
+    /* vertical-align: middle; */
+}
+
 
